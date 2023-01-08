@@ -2,6 +2,7 @@ import axios from "axios";
 
 export const API = axios.create({
   baseURL: "https://backend-golang-production.up.railway.app/api/v1/",
+  
 });
 
 export const setAuthToken = (token) => {
